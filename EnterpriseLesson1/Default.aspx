@@ -72,11 +72,11 @@
                 <form class="form" id="form1" runat="server">
                     <div class="form-group">
                         <asp:Label ID="firstNameLabel" Text="First Name" runat="server" />
-                        <asp:TextBox ID="firstNameTextBox" runat="server" />
+                        <asp:TextBox ID="firstNameTextBox" runat="server" required="true" />
                         </div>
                     <div class="form-group">
                         <asp:Label ID="lastNameLabel" Text="Last Name" runat="server" />
-                        <asp:TextBox ID="lastNameTextBox" runat="server" />
+                        <asp:TextBox ID="lastNameTextBox" runat="server" required="true" />
                     </div>
                     <div class="form-group">
                         <asp:Label ID="ageLabel" Text="Age" runat="server" />
